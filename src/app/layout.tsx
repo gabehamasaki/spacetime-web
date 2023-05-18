@@ -3,7 +3,7 @@ import {
   Bai_Jamjuree as BaiJamjuree,
 } from 'next/font/google'
 import { ReactNode } from 'react'
-import './globals.css'
+import '../styles/globals.css'
 
 const roboto = Roboto({ subsets: ['latin'], variable: '--font-roboto' })
 const baiJamjuree = BaiJamjuree({
